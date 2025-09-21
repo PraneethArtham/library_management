@@ -1,7 +1,7 @@
 Library Management System (Supabase + Python)
 
 A simple library management system using Python and Supabase.
-It supports CRUD operations, borrow/return transactions, and reports for overdue books.
+Supports CRUD operations, borrow/return transactions, and reports for overdue books.
 
 Features
 
@@ -25,7 +25,7 @@ Borrow books (reduces stock)
 
 Return books (updates borrow record and increases stock)
 
-Handles validation for already borrowed books
+Validates already borrowed books
 
 Reports
 
@@ -39,7 +39,7 @@ Supabase (PostgreSQL database)
 
 Supabase Python Client (pip install supabase)
 
-Python-dotenv (pip install python-dotenv) for environment variables
+Python-dotenv (pip install python-dotenv)
 
 Project Structure
 library-management/
@@ -47,4 +47,4 @@ library-management/
 ├── library_functions.py      # All CRUD, borrow/return, and report functions
 ├── main.py                   # Menu-driven main program
 ├── .env                      # Environment variables (SUPABASE_URL, SUPABASE_KEY)
-└── README.md
+└── README.md                 # Project documentation
